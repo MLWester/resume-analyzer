@@ -1,42 +1,38 @@
-# Welcome to React Router!
 
-A modern, production-ready template for building full-stack React applications using React Router.
+# TalentScope AI – Smart Resume Analyzer
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+TalentScope AI is a modern, full-stack web application that leverages artificial intelligence to help job seekers optimize their resumes and maximize their chances of landing their dream job. Built with a focus on user experience, performance, and real-world utility, this project demonstrates my ability to deliver robust, production-ready solutions using today’s best web technologies.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **AI-Powered Resume Analysis:** Instantly receive actionable feedback and suggestions to improve your resume’s content, structure, and keyword optimization.
+- **Job Description Matching:** Upload a job description and see how well your resume aligns, with gap analysis and targeted recommendations.
+- **ATS Compatibility Checker:** Ensure your resume is Applicant Tracking System (ATS) friendly, with warnings for formatting or keyword issues.
+- **PDF to Image Conversion:** Seamlessly convert PDF resumes to images for advanced AI processing and preview.
+- **Modern UI/UX:** Responsive, accessible, and visually appealing interface built with Tailwind CSS.
+- **File Upload & Management:** Drag-and-drop file uploads, real-time status updates, and secure file handling.
+- **State Management:** Efficient global state using Zustand for a smooth, reactive user experience.
+- **Type Safety:** End-to-end TypeScript for maintainable, error-resistant code.
+
+## Tech Stack
+
+- **Frontend:** React 19, React Router 7, Tailwind CSS, clsx, tailwind-merge
+- **State Management:** Zustand
+- **PDF Processing:** pdfjs-dist
+- **File Uploads:** react-dropzone
+- **Build Tooling:** Vite, TypeScript, vite-tsconfig-paths
+- **Developer Experience:** Hot Module Replacement (HMR), TypeScript strict mode, modular codebase
+- **Deployment Ready:** Docker support, Netlify-compatible static assets, production build scripts
 
 ## Getting Started
 
-### Installation
-
-Install the dependencies:
-
 ```bash
 npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
 npm run dev
 ```
-
-Your application will be available at `http://localhost:5173`.
+Visit [http://localhost:5173](http://localhost:5173) to use the app locally.
 
 ## Building for Production
-
-Create a production build:
 
 ```bash
 npm run build
@@ -44,44 +40,19 @@ npm run build
 
 ## Deployment
 
-### Docker Deployment
+- **Netlify:** Just drag-and-drop or connect your repo. All static assets and the PDF worker are in `/public` for seamless deployment.
+- **Docker:** Build and run with `docker build -t talent-scope-ai .` and `docker run -p 3000:3000 talent-scope-ai`.
 
-To build and run using Docker:
+## Why This Project Stands Out
 
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- **Real-World Impact:** Solves a genuine problem for job seekers with practical, AI-driven features.
+- **Modern Engineering:** Uses the latest React ecosystem, TypeScript, and best practices for scalability and maintainability.
+- **Attention to Detail:** Handles edge cases (like PDF worker versioning), robust error handling, and user privacy.
+- **Extensible:** Designed for easy addition of new features, such as cover letter generation, LinkedIn analysis, or interview prep.
 
 ---
 
-Built with ❤️ using React Router.
+> Built with passion and precision by Mason Wester.  
+> Ready to help users land their dream job—and to help your team build the future.
+
+---
