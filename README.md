@@ -1,8 +1,6 @@
-# Welcome to React Router!
+# TalentScope AI – Smart Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+TalentScope AI is a modern, full-stack web application that leverages artificial intelligence to help job seekers optimize their resumes and maximize their chances of landing their dream job. Built with a focus on user experience, performance, and real-world utility, this project demonstrates my ability to deliver robust, production-ready solutions using today’s best web technologies.
 
 ## Features
 
@@ -41,44 +39,19 @@ npm run build
 
 ## Deployment
 
-### Docker Deployment
+- **Netlify:** Just drag-and-drop or connect your repo. All static assets and the PDF worker are in `/public` for seamless deployment.
+- **Docker:** Build and run with `docker build -t talent-scope-ai .` and `docker run -p 3000:3000 talent-scope-ai`.
 
-To build and run using Docker:
+## Why This Project Stands Out
 
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- **Real-World Impact:** Solves a genuine problem for job seekers with practical, AI-driven features.
+- **Modern Engineering:** Uses the latest React ecosystem, TypeScript, and best practices for scalability and maintainability.
+- **Attention to Detail:** Handles edge cases (like PDF worker versioning), robust error handling, and user privacy.
+- **Extensible:** Designed for easy addition of new features, such as cover letter generation, LinkedIn analysis, or interview prep.
 
 ---
 
-Built with ❤️ using React Router.
+> Built with passion and precision by Mason Wester.  
+> Ready to help users land their dream job—and to help your team build the future.
+
+---
